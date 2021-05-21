@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Test</title>
+    <link rel="stylesheet" href="dist/style.css">
+    
+</head>
+
+<body class="">
+    <nav class="fixed w-full bg-gray-900 flex flex-wrap items-center justify-between px-2 py-3 z-9999">
+        <div class="w-full px-4 mx-auto flex flex-wrap items-center justify-between max-h-screen-70 overflow-y-auto">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"><a
+                    class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+                    href="#">Brand</a><button
+                    class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                    type="button"><i class="text-white fas fa-bars"></i></button></div>
+            <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden">
+                <ul class="flex flex-col lg:flex-row list-none mr-auto lg:items-center">
+                    <li><a class="hover:opacity-75 lg:text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-blueGray-800"
+                            href="#">NavMenu</a></li>
+                    <li><a class="hover:opacity-75 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-white"
+                            href="#">Navmenu2 <i
+                                class="ml-1 fas fa-caret-down transition-all duration-200 ease-in-out transform rotate-180"></i></a>
+                        <div class=" hidden block bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+                            data-popper-placement="bottom-start"
+                            style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(295px, 50px);">
+                            <a class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">Presentation</a><a
+                                class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">Admin</a><a
+                                class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">E-commerce</a><a
+                                class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">Blog</a><a
+                                class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">Authentication</a><a
+                                class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">Misc</a><a
+                                class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-800"
+                                href="#">Error</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inline-block group"><a
+                                class="hover:opacity-75 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-200 ease-in-out text-white"
+                                href="#">Navmenu3 <i class="ml-1 fas fa-caret-down"></i></a>
+                            <div
+                                class="hidden block absolute origin-top-left bg-white text-base float-left p-2 pt-0 list-none text-left rounded-lg shadow-lg min-w-48 transition-all duration-200 ease-in-out transform scale-0 opacity-0 group-hover:opacity-100 group-hover:scale-100 border">
+                                <div class="flex flex-wrap max-lg:pl-4">
+                                    <div class="w-full lg:w-1/3">
+                                        <p
+                                            class="uppercase font-bold text-xs px-3 pt-6 pb-2 block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+                                            E-Commerce</p>
+                                        <div class="pl-0"><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Chat</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Checkout</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">E-Commerce</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Invoice</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Pricing</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Product</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Profile 1</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Settings 1</a></div>
+                                    </div>
+                                    <div class="w-full lg:w-1/3">
+                                        <p
+                                            class="uppercase font-bold text-xs px-3 pt-6 pb-2 block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+                                            Authentication</p>
+                                        <div class="pl-0"><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Login 1</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Login 2</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Register 1</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Register 2</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Reset</a></div>
+                                    </div>
+                                    <div class="w-full lg:w-1/3">
+                                        <p
+                                            class="uppercase font-bold text-xs px-3 pt-6 pb-2 block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+                                            Presentation</p>
+                                        <div class="pl-0"><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Landing 1</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Landing 2</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">About Us</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Contact Us</a></div>
+                                    </div>
+                                    <div class="w-full lg:w-1/3">
+                                        <p
+                                            class="uppercase font-bold text-xs px-3 pt-6 pb-2 block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+                                            Admin</p>
+                                        <div class="pl-0"><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Dashboard</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Maps</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Settings 2</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Tables</a></div>
+                                    </div>
+                                    <div class="w-full lg:w-1/3">
+                                        <p
+                                            class="uppercase font-bold text-xs px-3 pt-6 pb-2 block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+                                            Error</p>
+                                        <div class="pl-0"><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Error 404</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Error 500</a></div>
+                                    </div>
+                                    <div class="w-full lg:w-1/3">
+                                        <p
+                                            class="uppercase font-bold text-xs px-3 pt-6 pb-2 block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+                                            Blog</p>
+                                        <div class="pl-0"><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Blog Post</a><a
+                                                class="text-sm px-3 py-2 block w-full whitespace-nowrap bg-transparent hover:bg-blueGray-100 rounded transition-all duration-100"
+                                                href="#">Blog Posts</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="flex flex-col lg:flex-row list-none lg:ml-auto lg:items-center">
+                    <li><a class="text-blueGray-800 hover:text-blueGray-600 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                            href="#"><i
+                                class="text-blueGray-500 lg:text-white fab fa-facebook text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2">Share</span></a></li>
+                    <li><a class="text-blueGray-800 hover:text-blueGray-600 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                            href="#"><i
+                                class="text-blueGray-500 lg:text-white fab fa-twitter text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2">Tweet</span></a></li>
+                    <li><a class="text-blueGray-800 hover:text-blueGray-600 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                            href="#"><i
+                                class="text-blueGray-500  lg:text-white fab fa-github text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2">Star</span></a></li>
+                    <li><a href="#"
+                            class="text-xs px-4 py-2 shadow hover:shadow-md text-white bg-blueGray-800 border-blueGray-800 active:bg-blueGray-900 active:border-blueGray-900 rounded outline-none focus:outline-none align-middle transition-all duration-150 ease-in-out uppercase border border-solid font-bold mr-2">Login
+                        </a></li>
+                    <li><a href="#"
+                            class="text-xs px-4 py-2 shadow hover:shadow-md text-white bg-blueGray-100 border-blueGray-100 active:bg-blueGray-300 active:border-blueGray-300 rounded outline-none focus:outline-none align-middle transition-all duration-150 ease-in-out uppercase border border-solid font-bold">Buy
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav2 -->
+    <nav class="fixed z-50 w-full bg-white top-20 flex flex-wrap items-center justify-between px-2 py-3 shadow-lg">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"><a
+                    class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-blueGray-700"
+                    href="#">Tailwind Starter Kit</a><button
+                    class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                    type="button"><i class="fas fa-bars"></i></button></div>
+            <div class="lg:flex flex-grow items-center hidden" id="example-navbar-danger">
+                <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                    <li class="nav-item"><a
+                            href="#"
+                            class="px-3 py-2 flex items-center text-xs uppercase font-bold text-blueGray-700 hover:text-blueGray-500"
+                            target="_blank"><i
+                                class="fab fa-facebook-square text-lg leading-lg text-blueGray-400"></i><span
+                                class="ml-2">Share</span></a></li>
+                    <li class="nav-item"><a
+                            href="#"
+                            class="px-3 py-2 flex items-center text-xs uppercase font-bold text-blueGray-700 hover:text-blueGray-500"
+                            target="_blank"><i class="fab fa-twitter text-lg leading-lg text-blueGray-400"></i><span
+                                class="ml-2">Tweet</span></a></li>
+                    <li class="nav-item"><a
+                            class="px-3 py-2 flex items-center text-xs uppercase font-bold text-blueGray-700 hover:text-blueGray-500"
+                            href="#"><i
+                                class="far fa-file-alt text-lg leading-lg text-blueGray-400"></i><span
+                                class="ml-2">Docs</span></a></li>
+                    <li class="nav-item"><a
+                            class="download-button px-3 py-2 flex items-center text-xs uppercase font-bold text-blueGray-700 hover:text-blueGray-500"
+                            href="#"><i
+                                class="fas fa-arrow-alt-circle-down text-lg leading-lg text-blueGray-400"></i><span
+                                class="ml-2">Download</span></a></li>
+                    <li class="nav-item"><a
+                            href="#"
+                            class="download-button px-3 py-2 flex items-center text-xs uppercase font-bold text-blueGray-700 hover:text-blueGray-500"><i
+                                class="fab fa-sketch text-lg leading-lg text-blueGray-400"></i><span
+                                class="ml-2">Download Designer</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
